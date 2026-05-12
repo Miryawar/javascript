@@ -18,6 +18,7 @@ array.pop()
 array.pop()
 console.log(array);
 
+//similar to push pop but used to add and remove ist element in array
 array.unshift(8)
 array.shift()
 console.log(array);
