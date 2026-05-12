@@ -18,5 +18,17 @@ console.log(mycreateddate2);
 let mytimestamp = Date.now()
 console.log(mytimestamp);
 
+let newDate = new Date()
+console.log(newDate.getMonth());
+console.log(newDate.getDay()); 
+
+console.log(newDate.toLocaleString('default',{
+    weekday : 'long',
+    year : 'numeric',
+    month : 'long',
+    day : 'numeric'
+}))
 
 
+
+ 
