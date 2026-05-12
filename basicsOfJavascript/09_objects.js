@@ -1,4 +1,4 @@
-
+//objects in javascript are collection of key value pairs
 //object literal
 const object1 = {
     name : "yawar",
