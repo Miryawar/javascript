@@ -1,3 +1,4 @@
+//datatype conversion in js
 let score = "20aa"
 
 console.log(typeof score) //string
@@ -11,4 +12,5 @@ let number = 22
 console.log(typeof number)
 let conString = String(number)
 console.log(typeof conString)
+
 
