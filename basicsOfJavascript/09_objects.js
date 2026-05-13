@@ -6,6 +6,12 @@ const object1 = {
     hobies : ["coding", "gaming", "traveling"]
    
 }
+//object destrucrure
+const {name} = object1
+console.log(name);
+const {name : myname} = object1
+console.log(myname);
+
 //accessing object
 console.log(object1.name);
 console.log(object1.age);
@@ -22,7 +28,6 @@ console.log(Object.entries(object1))
 //modify value
 object1.age = 24;
 console.log(object1.age)
-
 
 object1.greeting = function(){
     console.log("hello yawar");
@@ -54,6 +59,21 @@ console.log(obj4)
 
 const obj5 = {...obj1,...obj2}
 console.log(obj5)
+
+//nested objects and how to access
+const reguser = {
+    email : "mir@gmail.com",
+    fullname : {
+        usersfullname : { 
+          firstname : "yawarmir",
+          lastname : "ahmad"
+        }
+    }
+}
+console.log(reguser.fullname.usersfullname.firstname);
+console.log(reguser.fullname.usersfullname.lastname);
+
+
 
 
 
