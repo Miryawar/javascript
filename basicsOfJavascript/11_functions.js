@@ -50,7 +50,7 @@ handleObject({
     username : "dar",
     price : 100
 })
-
+//handle arrays in functions
 const arr = [100,200,300,400]
 
 function accessarrelement(anyarray){
