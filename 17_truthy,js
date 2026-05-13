@@ -1,0 +1,20 @@
+//Nullish coalescing operator(??):null undefined
+
+let val1;
+// val1 = 5 ?? 10
+// val1 = null ?? 15
+val1 = undefined ?? 15
+val1 = null ?? 10 ??20
+
+console.log(val1);
+
+// Terinary Operator
+// condition ? True : false
+const iceteaprice = 100
+iceteaprice >= 80 ? console.log("above 80") : console.log("below 80")
+
+//falsy values
+// false, 0, -0, BigInt 0n, "", null, undefined, NaN
+
+// truthy values
+// "0", 'false', " ", [], {}, function{}
