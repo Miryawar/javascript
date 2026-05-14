@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM manipulation</title>
+</head>
+<body>
+    <ul class= "language">
+        <li>javascript</li>
+
+    </ul>
+    
+</body>
+<script>
+    function addlanguage(langName){
+        const li = document.createElement('li')
+        li.innerHTML = "langName"
+        document.querySelector('.language').appendChild(li)
+}
+addlanguage('java')
+addlanguage("python")
+addlanguage("c#")
+ 
+    function addlanguage(langName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+
+    }
+addlanguage('typescript')
+addlanguage(`c++`)
+addlanguage("php")
+
+// edit
+const secondLang = document.querySelector("li:nth-child(2)")
+const newli = document.createElement('li')
+newli.textContent =  "mojo"
+  secondLang.replaceWith(newli)
+
+//edit
+const firstLang = document.querySelector("li:first-child")
+firstLang.outerHTML = '<li>Typescript</li>'
+
+
+//remove
+const lastLang = document.querySelector("li:last-child")
+lastLang.remove()
+</script>
+</html>
