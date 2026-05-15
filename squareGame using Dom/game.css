@@ -1,0 +1,52 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+#main {
+      display : flex;
+      align-items: center;
+      vertical-align: middle;
+      justify-content : center;
+      margin-top : 150px;
+
+}
+#cursor{
+    width : 15px;
+    height :15px;
+    background-color: green;
+    border-radius : 50%;
+    position : absolute;
+}
+.square1{
+    width : 150px;
+    height : 150px;
+    border : 2px solid black;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+.square2{
+    width : 150px;
+    height : 150px;
+    border : 2px solid black;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+.square3{
+    width : 150px;
+    height : 150px;
+    border : 2px solid black;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+.square4{
+    width : 150px;
+    height : 150px;
+    border : 2px solid black;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
